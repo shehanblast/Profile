@@ -1,0 +1,512 @@
+.aa img{
+    /*background-color: blue;*/
+    /*background-image: url("im4.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: left;*/
+    width: 100%;
+
+
+
+}
+
+#home-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+#a1{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+
+/*-----------------------------------------------puka----------------------------------------------------------*/
+
+#puka{
+    font-family: 'Patua One', cursive;
+}
+
+#puka .content-lgx{
+    background: black;
+    width: 100%;
+
+}
+
+#puka .bg {
+    /* The image used */
+    /*background: url("../asserts/m.png");*/
+
+    /* Full height */
+    height: 80%;
+
+
+    /*!* Center and scale the image nicely *!*/
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+}
+
+
+/*-----------------------------------------------puka end----------------------------------------------------------*/
+
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+.aa2{
+    color: white;
+
+    padding-left: 50px;
+    text-align: center;
+}
+
+.aa2 img{
+    width: 100%;
+    text-align: right;
+}
+
+#aaa{
+    background-image: url("k1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+.aa2 i{
+    color: white;
+    font-size: 230px;
+}
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+#aaa1{
+    background-image: url("k2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+.bb1{
+    padding-left: 100px;
+}
+
+#aaa1 i{
+    font-size: 60px;
+    color: black;
+}
+
+#aaa1 .i1:hover{
+    color: #0077b5;
+}
+
+#aaa1 .i2:hover{
+    color: black;
+}
+
+#aaa1 .i3:hover{
+    color: #fc4f08;
+}
+
+#aaa1 .i4:hover{
+    color: #3b5998;
+}
+
+#aaa1 .i5:hover{
+    color: red;
+}
+
+#aaa1 .i6:hover{
+    color: purple;
+}
+
+#aaa1 i:hover {
+    font-size: 65px;
+
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#aaa1 span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ========================================================
+                        load
+  ========================================================*/
+
+#load{
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+#aaa2{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+#aaa2 h1{
+    text-align: center;
+}
+
+#aaa2 hr{
+    width: 20%;
+    text-align: center;
+    padding-right: 20px;
+    color: white;
+
+}
+
+#aaa2 .cc1 .d{
+    text-align: center;
+}
+
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+#aaa4{
+    background-image: url("kjs.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.a41 {
+    color: white;
+    padding-left: 30px;
+    padding-top: 25px;
+    font-size: 18px;
+}
+
+.a42 {
+    text-align: right;
+}
+
+
+
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+#aaa5{
+    background-image: url("kjs2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+/**************** skills ***********************/
+
+
+.skills{
+    /*width: 100%;*/
+    /*max-width: 600px;*/
+    /*padding: 0 20px;*/
+    /*text-align: center;*/
+
+}
+
+.skill{
+    max-width: 100%;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.skill-bar{
+    height: 20px;
+    background: #efefef;
+    border-radius: 0px;
+
+}
+
+.skill-per{
+    height: 20px;
+    background-color: #0fbcf9;
+    border-radius: 0px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+}
+
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+#aaa6{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+#aaa6 i{
+    font-size: 150px;
+}
+
+/* ========================================================
+                        about
+  ========================================================*/
+
+#aaa8{
+    text-align: center;
+    font-weight: 500;
+    padding: 5px;
+
+}
+
+#aaa7{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+/***************** statement ************************/
+#statement {
+    background: url("tech-quote.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#statement .content-box-lg {
+    background: rgba(0,0,0,0.3);
+}
+
+#tech-statement h3 {
+    color: white;
+    font-size: 28px;
+    line-height: 45px;
+
+}
+
+#tech-statement p {
+    font-size: 14px;
+    color: #f4c613;
+    font-family: "Raleway" ,sans-serif;
+    margin-top: 8px;
+}
+
+/***************** statement ************************/
+#statement2 {
+    background: url("tech-quote.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#statement2 .content-box-md {
+    background: rgba(0,0,0,0.3);
+}
+
+#tech-statement2 h3 {
+    color: white;
+    font-size: 28px;
+    line-height: 45px;
+
+}
+
+#tech-statement2 p {
+    font-size: 14px;
+    color: black;
+    font-family: "Raleway" ,sans-serif;
+    margin-top: 8px;
+}
+
+
+.content-box-lg {
+    padding: 200px 0;
+}
+.content-box-md {
+    padding: 100px 0;
+}
+.content-box-sm {
+    padding: 90px 0;
+}
+.content-box-sml {
+    padding: 65px 0;
+}
+/* ========================================================
+                       portfolio
+  ========================================================*/
+#portfolio .vertical-heading {
+    margin-bottom: 50px;
+}
+.row.no-gutters [class*=col-] {
+    padding: 0;
+}
+
+
+.portfolio-item {
+    overflow: hidden;
+    position: relative;
+}
+/*********** filters css **************/
+
+#isotope-filers {
+    margin-bottom: 10px;
+    padding: 20px 25px 20px 0;
+}
+
+#isotope-filers button {
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: transparent;
+    box-shadow: none;
+    padding-right: 35px;
+    outline: 0;
+}
+
+#isotope-filers button span {
+    display: block;
+    padding-bottom: 5px;
+    transition: border-color .4s ease-in-out;
+}
+
+#isotope-filers button.active span{
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
+/*** zoom effect *********/
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    transition: transform .5s ease;
+}
+
+.portfolio-item:hover img {
+    transform: scale(1.1);
+}
+
+/*********** overlay effect **********/
+#portfolio {
+    padding-bottom: 160px;
+    background-color: black;
+}
+.portfolio-item-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(14, 14, 17, 0.9);
+    cursor: zoom-in;
+    opacity: 0;
+    transition: all 0.8s ease;
+}
+.portfolio-item-details  {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.portfolio-item-details h3 {
+    color: #f4c613;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-20%);
+}
+
+.portfolio-item-details span {
+    display: inline-block;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 6px;
+    width: 30px;
+    margin: 11px auto 5px auto;
+}
+
+.portfolio-item-details p {
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    transform: translateY(20%);
+}
+
+/* show overlay on mouse over*/
+
+.portfolio-item:hover .portfolio-item-details h3 {
+    transform: translateY(0);
+}
+.portfolio-item:hover .portfolio-item-details p {
+    transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-overlay {
+    opacity: 1;
+}
